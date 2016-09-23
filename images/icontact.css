@@ -1,0 +1,49 @@
+/*
+CSS Name: iPhone Style Contact Widget
+Description: For iPhone Style Contact Widget
+Author: Phil Burns
+Version: 1.00
+*/
+
+/* ----------- Contact Widget Layout -------------*/
+
+
+#contactwidget{
+	text-align:left; 
+}		
+
+#contactwidget .itoolbar{
+	width:300px; 
+	background: url(sidebg.jpg) repeat-y scroll right top;
+	height:530px; 
+	margin: 0 0 3px 0;
+}
+
+#contactwidget .itoolbar .iphone{
+	background: url(Apple-iPhone-s.png)  no-repeat center; 
+	height:530px;
+}
+
+#contactwidget .itoolbar .iphone a{
+	padding:0px 0px 0px 0px;
+}
+
+#contactwidget .itoolbar .iphone a img{
+	height:45px;
+	 border:0px;
+	padding:0px 5px 5px 0px;
+	background: none;
+}
+	 
+
+#contactwidget .itoolbar .iphone .toprow{
+	padding:100px 3px 0px 50px;
+}
+
+#contactwidget .itoolbar .iphone .floatrow{
+	padding:10px 3px 0px 50px;
+}						
+
+#contactwidget .itoolbar .iphone .dockrow{
+	padding:50px 3px 0px 50px;
+}				
